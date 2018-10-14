@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pankaryp/overwatch-discord-bot/issues"
   },
-  "homepage": "https://github.com/pankaryp/overwatch-discord-bot#readme"
+  "homepage": "https://github.com/pankaryp/overwatch-discord-bot#readme",
+  "dependencies": {
+    "discord.js-commando": "^0.10.0"
+  }
 }
