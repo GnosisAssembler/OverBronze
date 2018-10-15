@@ -1,4 +1,6 @@
-# Overwatch-discord-bot
+# OverBronze
+
+> A discord bot about Overwatch stats.
 
 ![status in_progress](https://img.shields.io/badge/status-in_progress-brightgreen.svg)
 
