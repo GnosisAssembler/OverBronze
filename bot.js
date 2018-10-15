@@ -12,7 +12,8 @@ const client = new Commando.Client({
 client.registry
     // Registers your custom command groups
     .registerGroups([
-        ['basic', 'Basic commands']
+        ['basic', 'Basic commands'],
+        ['overwatch-stats', 'Commands about overwatch statistics']
     ])
 
     // Registers all built-in groups, commands, and argument types
