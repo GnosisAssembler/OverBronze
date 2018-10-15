@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/pankaryp/OverBronze.git#readme",
   "dependencies": {
+    "discord.js": "^11.4.2",
     "discord.js-commando": "^0.10.0",
     "sqlite": "^3.0.0"
   }
