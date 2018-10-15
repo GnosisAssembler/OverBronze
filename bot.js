@@ -4,7 +4,9 @@ const path = require('path');
 
 // Init commando client - instance of client
 const client = new Commando.Client({
-    owner: 'Mr.Pringles#2008'
+    commandPrefix: '<Insert Your Prefix Here>',
+    owner: '<Insert Your User ID Here>',
+    disableEveryone: true
 });
 
 client.registry
