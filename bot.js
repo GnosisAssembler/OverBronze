@@ -24,7 +24,7 @@ client.registry
 // Set ready event
 client.on('ready', () => {
     console.log('OverBronze bot logged in!');
-    client.user.setActivity('game');
+    client.user.setActivity('Overwatch');
 });
 
 
