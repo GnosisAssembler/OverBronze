@@ -38,21 +38,24 @@ module.exports = class StatsCommand extends Command {
             console.log('error:', error); 
             console.log('statusCode:', response && response.statusCode); 
 
-            // Output message
-            const message = 'Battlenet Name: ' + body.name + '\nCurrent level: ' + body.level
-            + '\nTotal games won: ' + body.gamesWon + '\nCurrent rating: ' + body.rating 
-            + '\nTotal comp games played: ' + body.competitiveStats.games.played
-            + '\nTotal comp games won:  ' + body.competitiveStats.games.won
-            + '\nTotal comp gold medals earned: ' + body.competitiveStats.awards.medalsGold;
-
             // Create embed
             const embed = new RichEmbed()
-                .setDescription(message)
-                .setAuthor(msg.author.username, msg.author.displayAvatarURL)
+                .setTitle('✅ ' + body.name + " Overwatch Stats")
+                .setImage(body.icon) // Set user's overwatch icon
+                .setThumbnail(body.prestigeIcon) // Set prestige as a thumbnail
                 .setColor(0x00AE86)
-                .setTimestamp();
+                .setFooter("From ow-api")
+                .setTimestamp()
+                // Set fields with player's stats
+                .addField("Current level", body.level)
+                .addField("Total games won", body.gamesWon)
+                .addField("Current rating", body.rating)
+                .addField("Current ranked games played", body.competitiveStats.games.played)
+                .addField("Current ranked games won", body.competitiveStats.games.won)
+                .addField("Current ranked gold medals earned", body.competitiveStats.awards.medalsGold);
 
             return msg.embed(embed);
+            
         });
     }
 }
