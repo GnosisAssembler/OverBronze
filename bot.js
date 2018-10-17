@@ -37,6 +37,14 @@ client.on('message', msg => {
     }
 });
 
+// Cute detector
+const cuteWords = ["cute"];
+client.on('message', msg1 => {
+    if( cuteWords.some(word => msg1.content.includes(word)) ) {
+        msg1.reply("Yea it's adorable 😊");
+    }
+});
+
 // Aha detector
 const ahaWords = ["tell me more"];
 client.on('message', msg2 => {
