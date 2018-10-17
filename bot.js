@@ -4,13 +4,13 @@ const path = require('path');
 
 // Init commando client - instance of client
 const client = new Commando.Client({
-    commandPrefix: '~',
-    owner: '377149978902134794',
-    disableEveryone: true
+    commandPrefix: '~', // prefix
+    owner: '377149978902134794', // owner's id
+    disableEveryone: true // Dissable the everyone mention
 });
 
 client.registry
-    // Registers your custom command groups
+    // Registers your command groups
     .registerGroups([
         ['basic', 'Basic commands'],
         ['overwatch-stats', 'Commands about overwatch statistics']
@@ -19,7 +19,7 @@ client.registry
     // Registers all built-in groups, commands, and argument types
     .registerDefaults()
 
-    // Registers all of your commands in the ./commands/ directory
+    // Registers all commands in the ./commands/ directory
     .registerCommandsIn(path.join(__dirname, 'commands'));
 
 // Set ready event
@@ -28,7 +28,7 @@ client.on('ready', () => {
     client.user.setActivity('Overwatch');
 });
 
-
+// Init sqlite
 const sqlite = require('sqlite');
 
 client.setProvider(
