@@ -28,6 +28,23 @@ client.on('ready', () => {
     client.user.setActivity('Overwatch');
 });
 
+// Swear detector
+const swearWords = ["stfu", "kys", "Kys", "fuck", "fak", "shit", "ass", "Fuck", "STFU"];
+client.on('message', msg => {
+    if( swearWords.some(word => msg.content.includes(word)) ) {
+        msg.reply("Oh no you said a bad word 😡 !!!");
+        // Or just do message.delete();
+    }
+});
+
+// Aha detector
+const ahaWords = ["tell me more"];
+client.on('message', msg2 => {
+    if( ahaWords.some(word => msg2.content.includes(word)) ) {
+        msg2.reply("aha aha...");
+    }
+});
+
 // Init sqlite
 const sqlite = require('sqlite');
 
