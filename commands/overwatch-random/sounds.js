@@ -25,7 +25,7 @@ module.exports = class SoundCommand extends Command {
         var voiceChannel = msg.member.voiceChannel;
 
         voiceChannel.join().then(connection => {
-            const dispatcher = connection.playFile(`./assets/ow-sounds/sound${randomSound}.mp3`);
+            const dispatcher = connection.playFile(`./assets/ow-sounds/sound${randomSound}.ogg`);
             dispatcher.on("end", end => {
                 voiceChannel.leave();
             });
