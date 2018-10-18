@@ -42,7 +42,7 @@ client.on('message', msg => {
 const zombeWords = ["zombe"];
 client.on('message', msg1 => {
     if( zombeWords.some(word => msg1.content.includes(word)) ) {
-        msg1.reply("Hullow zombieeeees");
+        msg1.reply("Hyelloooo zombieeeees");
     }
 });
 
