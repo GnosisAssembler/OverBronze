@@ -13,7 +13,8 @@ client.registry
     // Registers your command groups
     .registerGroups([
         ['basic', 'Basic commands'],
-        ['overwatch-stats', 'Commands about overwatch statistics']
+        ['overwatch-stats', 'Overwatch statistics commands'],
+        ['overwatch-random', 'Random overwatch pics and sounds commands']
     ])
 
     // Registers all built-in groups, commands, and argument types
