@@ -1,7 +1,6 @@
 // Require dependencies
 const { Command } = require('discord.js-commando');
-const request = require('request');
-const { RichEmbed } = require('discord.js');
+const { Attachment } = require('discord.js');
 
 module.exports = class PicCommand extends Command {
     constructor(client) {
@@ -14,9 +13,20 @@ module.exports = class PicCommand extends Command {
         });
     }
 
-    run(msg, {profile}) {
+    run(msg) {
 
-        console.log("test");
+        // Create a random number generator
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * Math.floor(max));
+        }
+        
+        // Random ow-pic
+        const randomPic = getRandomInt(11);
+
+        // Create the pic attachment using Attachment
+        const attachment = new Attachment(`./assets/ow-pics/pic${randomPic}.jpg`);
+        // Send the attachment in the message channel
+        msg.channel.send(attachment);
             
     }
 }
