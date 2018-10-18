@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "OverBronze",
   "version": "1.0.0",
@@ -24,3 +25,31 @@
     "sqlite": "^3.0.0"
   }
 }
+=======
+{
+  "name": "OverBronze",
+  "version": "1.0.0",
+  "description": "A discord bot about Overwatch stats",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankaryp/OverBronze.git"
+  },
+  "author": "Panos Karypiadis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pankaryp/OverBronze.git/issues"
+  },
+  "homepage": "https://github.com/pankaryp/OverBronze.git#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
+    "request": "^2.88.0",
+    "sqlite": "^3.0.0"
+  }
+}
+>>>>>>> ef2233dbfc588678ac2fd9f25774170a4982b0f6

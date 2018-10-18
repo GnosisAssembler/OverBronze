@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 ## Client id at "CLIENTID"
 
+=======
+## Client id at "CLIENTID"
+
+>>>>>>> ef2233dbfc588678ac2fd9f25774170a4982b0f6
 https://discordapp.com/oauth2/authorize?&client_id=CLIENTID&scope=bot&permissions=8

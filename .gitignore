@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 /node_modules
 /dist
 /config
+=======
+/node_modules
+/dist
+/config
+>>>>>>> ef2233dbfc588678ac2fd9f25774170a4982b0f6
 package-lock.json
