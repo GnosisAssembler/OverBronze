@@ -2,6 +2,14 @@
 
 > Overwatch themed discord bot
 
+
+[![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/phaser-craft.min.js.svg)](https://github.com/pankaryp/OverBronze.git)
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/pankaryp/OverBronze.git)
+![node 8.11.4](https://img.shields.io/badge/node-8.11.4-brightgreen.svg)
+
+
+
+
 #### Note : This is a self hosting bot. Meaning you must host it and mantain it yourself.
 
 ### Features
