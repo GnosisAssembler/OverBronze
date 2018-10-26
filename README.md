@@ -8,6 +8,7 @@
 ![node 8.11.4](https://img.shields.io/badge/node-8.11.4-brightgreen.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/17d350fd4657828cd497/maintainability)](https://codeclimate.com/github/pankaryp/OverBronze/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/17d350fd4657828cd497/test_coverage)](https://codeclimate.com/github/pankaryp/OverBronze/test_coverage)
+[![Build Status](https://travis-ci.org/pankaryp/OverBronze.svg?branch=master)](https://travis-ci.org/pankaryp/OverBronze)
 
 
 
