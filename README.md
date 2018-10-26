@@ -6,7 +6,8 @@
 [![Github file size](https://img.shields.io/github/size/webcaetano/craft/build/phaser-craft.min.js.svg)](https://github.com/pankaryp/OverBronze.git)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/pankaryp/OverBronze.git)
 ![node 8.11.4](https://img.shields.io/badge/node-8.11.4-brightgreen.svg)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/17d350fd4657828cd497/maintainability)](https://codeclimate.com/github/pankaryp/OverBronze/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/17d350fd4657828cd497/test_coverage)](https://codeclimate.com/github/pankaryp/OverBronze/test_coverage)
 
 
 
