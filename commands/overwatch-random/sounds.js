@@ -20,7 +20,7 @@ module.exports = class SoundCommand extends Command {
         }
         
         // Random ow-sound
-        const randomSound = getRandomInt(27);
+        const randomSound = getRandomInt(35);
 
         var voiceChannel = msg.member.voiceChannel;
 
