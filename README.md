@@ -30,7 +30,7 @@
 
 ### Getting Started
 In order to host the bot you must create a config folder inside your root directory with a keys.js file inside.
-```
+```javascript
 #Inside keys.js
 
 module.exports = {
